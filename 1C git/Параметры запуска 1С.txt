@@ -1,0 +1,9 @@
+Параметры запуска 1С:Предприятие для работы с Git
+
+1. выгрузить внешний отчет|обработку в набор xml файлов
+ /DumpExternalDataProcessorOrReportToFiles
+пример:
+1С DESIGNER /DumpExternalDataProcessorOrReportToFiles "путь_выгрузки" Обработка.epf
+
+2. загрузить внешний отчет|обработку из набора xml файлов
+ /LoadExternalDataProcessorOrReportFromFiles
